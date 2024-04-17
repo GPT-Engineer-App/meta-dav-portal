@@ -13,7 +13,7 @@ const Index = () => {
         <Text fontSize="2xl" mt={2}>
           Innovating Your Digital World
         </Text>
-        <Button mt={4} colorScheme="orange" size="lg">
+        <Button mt={4} colorScheme="orange" size="lg" as={Link} to="/get-started">
           Get Started
         </Button>
       </Flex>
